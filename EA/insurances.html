@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Your insurances</title>
+      <!--jQuery for API requests -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="insurances.js"></script>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body class="body-wrapper">
+      <div class="insurances-wrapper">
+         <div class="insurances-header">
+            <label id="user-full-name" class="user-full-name"></label>
+            <button class="ea-button" onclick="logout()">Logga ut</button>
+         </div>
+         <div id="insurances-body" class="insurances-body"></div>
+      </div>
+   </body>
+</html>
